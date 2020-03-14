@@ -61,7 +61,8 @@ def all_supplies_in_holidays(holiday_hash)
     data.each do |holiday, supply|
       array = holiday.to_s.supply(" ")
       final_holiday = []
-        array.each do
+        array.each do |x|
+          
 end
 
 def all_holidays_with_bbq(holiday_hash)
